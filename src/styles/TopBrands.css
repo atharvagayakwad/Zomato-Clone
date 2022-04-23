@@ -1,0 +1,28 @@
+.top-brands {
+    /* border: 2px solid red; */
+    padding-top: 30px;
+
+}
+
+.top-brands-cover {
+    border: 2px solid red;
+    height: 200px;
+    width: 150px;
+    border-radius: 10%;
+    background: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border: 0.5px solid var(--border-white);
+    padding: 1rem;
+}
+
+.top-brands-img {
+    /* border: 2px solid; */
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.top-brands-img:not(:last-child) {
+    margin-right: 1rem;
+}

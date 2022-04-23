@@ -1,0 +1,20 @@
+.filter-item {
+    border: 1px solid var(--gray);
+    padding: 8px;
+    display: flex;
+    background: var(--primary-bg);
+    color: var(--filter-text);
+    border-radius: 8px;
+    margin: 10px 10px 10px 0px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-item:hover {
+    background: var(--filter-text);
+    color: var(--primary-bg);
+}
+
+.filter-name {
+    margin-left: 5px;
+}
